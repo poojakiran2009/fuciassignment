@@ -26,10 +26,15 @@ Finally tidy set is created
 
 CODEBOOK
 
+
+feature	meaning
+
+
+
 participants: with values  "1"  "3"  "5"  "6"  "7"  "8"  "11" "14" "15" "16" "17" "19" "21" "22" "23" "25" "26" "27" "28" "29" "30"
 activities: with values:  "1" "2" "3" "4" "5" "6"
 
-featuer	meaning
+
 timeBodyAccelerator-mean()-X	mean() of timeBodyAccelerator in direction X
 timeBodyAccelerator-mean()-Y	mean() of timeBodyAccelerator in direction Y
 timeBodyAccelerator-mean()-Z	mean() of timeBodyAccelerator in direction Z
