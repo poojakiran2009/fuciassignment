@@ -14,12 +14,12 @@ The files are read and train/test are combined
 Duplicate names are dropped
 
 
-Only means & stdevs are extracted. The ones for gravity are also extracted 
+1. Read all the files after unzipping
+2 Remove duplicated column names to tidy the data
+3 extract only the mean and standard deviation columns. We have to include manually the mean values for some columns (Gravity columns)
+4 name activities as walking, walking upstairs/downstairs, sitting, standing, laying
+5 label dataset with descriptive variable names for Accelerator, Gyroscope, Time, Frequency, Magnitude
+6 Summarize by participants/activities and write the tidy dataset using the 'by' operator in data.table
 
-next activities are labeled as Walking, Walking Upstairs/Downstairs, Sitting, Standing, Laying
-Column names are given descriptive labels
-Similarly for participants & activities
-
-Finally tidy set is created
 
 NOte that the summary of the features and their descriptions are in codebook.md file
